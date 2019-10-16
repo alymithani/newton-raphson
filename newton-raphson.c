@@ -11,7 +11,7 @@ float newtons_method(float initial_point, float allowed_error, int maximum_itera
 int main(int argc, char *argv[]) {
     // Make sure function is called with three parameters
     if (argc != 4) {
-        printf("Usage: ./Newton-Raphson initial_point allowed_error maximum_iterations\n");
+        printf("Usage: ./Newton-Raphson <initial_point> <allowed_error> <maximum_iterations>\n");
         return 1;
     }
 
